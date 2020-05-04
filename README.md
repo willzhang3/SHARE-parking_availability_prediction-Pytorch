@@ -15,6 +15,6 @@ If you make advantage of the SHARE model in your research, please cite the follo
 # Requirements
 This code is based on Python3 (>= 3.6). There are a few dependencies to run the code. The major libraries are listed as follows:
 * Pytorch (0.4.1)
-* [dgl] (https://github.com/dmlc/dgl)(0.4.1)
+* [dgl](https://github.com/dmlc/dgl) (0.4.1)
 
 
