@@ -103,7 +103,6 @@ class SCConv(nn.Module):
         :return: Output soft clustering representation for each parking lot of shape (batch_size, N, out_features).
         """
         B, N, in_features = X_lots.size()
-        '''graph pooling'''
         h_now = self.dropout(X_lots) # (B, N, F)
         S = self.w_classify(h_now) # (B, N, latend_num(K))
         S = F.softmax(S,dim=-1) # (B, N, K)
