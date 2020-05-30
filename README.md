@@ -2,11 +2,11 @@
 This is a Pytorch implementation of SHARE architecture as described in the paper [Semi-Supervised Hierarchical Recurrent Graph Neural Network for City-Wide Parking Availability Prediction](https://arxiv.org/pdf/1911.10516).
 
 <p align="center">
-  <img width="600" height="450" src=./figs/framework.png>
+  <img width="600" height="380.5" src=./figs/framework.png>
 </p>
 
 <p align="center">
-  <img width="600" height="450" src=./figs/scconv.png>
+  <img width="580" height="416" src=./figs/scconv.png>
 </p>
 
 If you make advantage of the SHARE model in your research, please cite the following:
