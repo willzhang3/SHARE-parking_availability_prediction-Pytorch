@@ -132,6 +132,7 @@ class GCN(nn.Module):
         adj = adj.div(torch.where(adj_rowsum>1e-8, adj_rowsum, 1e-8*torch.ones(1,1).cuda())) # row normalize
         # weight aggregate
         for i in range(self.hop):
+            h_c = torch.bmm(adj,h_c)
             h_c = self.leakyrelu(self.w_lot[i](h_c)) #(B, N, F)
         return h_c
     
