@@ -78,7 +78,7 @@ def load_data(T_in, T_out, Batch_Size, train_num, topk, disteps):
     # parking availability dataset (including PA, time and contextual data)
     # [normalized_PA, contextual_feature1, contextual_feature2, month, day, hour, minute, dayofweek]
     # An example [0.21, 0.14, 0.35, 5, 15, 13, 30, 3]
-    # Note the the normalized_PA is in [0,1].
+    # Note the normalized_PA is in [0,1].
     padata = np.load('../data/padata.npy') #(N, T_all, F)
     N, T_all, _ = padata.shape
     print('X shape:',padata.shape)  # (N, T_all, F)
