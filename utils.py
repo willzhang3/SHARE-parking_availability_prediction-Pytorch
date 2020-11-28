@@ -76,6 +76,8 @@ def load_data(T_in, T_out, Batch_Size, train_num, topk, disteps):
     adj = np.load('../data/adj.npy') 
     print('adj shape:',adj.shape) # (N, N)
     # parking availability dataset (including PA, time and contextual data)
+    # [normalized_PA, contextual_feature1, contextual_feature2, month, day, hour, minute, dayofweek]
+    # An example [0.21, 0.14, 0.35, 5, 15, 13, 30, 3]
     padata = np.load('../data/padata.npy') #(N, T_all, F)
     N, T_all, _ = padata.shape
     print('X shape:',padata.shape)  # (N, T_all, F)
