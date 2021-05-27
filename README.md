@@ -8,7 +8,7 @@ This is a Pytorch implementation of SHARE architecture as described in the paper
 If you make advantage of the SHARE model in your research, please cite the following:
 
 ```
-@article{zhang2019semi,
+@inproceedings{zhang2019semi,
   title={Semi-Supervised Hierarchical Recurrent Graph Neural Network for City-Wide Parking Availability Prediction},
   author={Zhang, Weijia and Liu, Hao and Liu, Yanchi and Zhou, Jingbo and Xiong, Hui},
   booktitle={Proceedings of the Thirty-Fourth AAAI Conference on Artificial Intelligence},
