@@ -5,7 +5,7 @@ This is a Pytorch implementation of SHARE architecture as described in the paper
   <img width="600" height="380.5" src=./figs/framework.png>
 </p>
 
-If you make advantage of the SHARE model in your research, please cite the following:
+If you take advantage of the SHARE model in your research, please cite the following:
 
 ```
 @inproceedings{zhang2019semi,
